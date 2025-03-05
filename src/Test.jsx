@@ -2,7 +2,7 @@ import test from "./assets/test.webp";
 
 export default function Test() {
   return (
-    <div className="lg:flex justify-center items-center bg-[#F8FBF9] p-6 lg:p-10 space-y-6 lg:space-y-0 lg:space-x-6">
+    <div className="lg:flex justify-center items-center bg-green-100 p-6 lg:p-10 space-y-6 lg:space-y-0 lg:space-x-6">
       <div>
         <img src={test} alt="test" className="w-32 lg:ml-48" />
         <h2 className="text-2xl font-bold text-gray-700 mt-4 lg:ml-48 lg:text-3xl lg:mb-8">
