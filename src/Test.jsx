@@ -1,4 +1,5 @@
 import test from "./assets/test.webp";
+import { Link } from "react-router-dom";
 
 export default function Test() {
   return (
@@ -12,7 +13,17 @@ export default function Test() {
           Start benefiting from the wellness experience.For companies looking on
           increasing productivity,and improving organization wellness.
         </p>
+        <div className="lg:ml-48">
+          <Link
+            to="/"
+            className="px-6 py-3 bg-gray-500 text-white 
+      rounded-lg shadow-md hover:bg-gray-600 transition"
+          >
+            Home
+          </Link>
+        </div>
       </div>
+
       <div className="bg-white shadow rounded p-6 w-full lg:w-3/5 lg:mr-32">
         <form className="space-y-4">
           <div className="grid grid-cols-2 gap-4 ">

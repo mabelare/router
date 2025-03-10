@@ -18,13 +18,13 @@ export default function Navbar() {
         <a href="#" className="hover:text-blue-600 text-xs  lg:text-[15px]">
           Help
         </a>
-        <a
-          href="#"
-          className="hover:text-blue-600 border border-gray-700
+        <Link
+          to="/"
+          className=" hover:text-blue-600 border border-gray-700
             px-4 py-1 rounded text-xs  lg:text-[15px]"
         >
-          Account
-        </a>
+          Home
+        </Link>
       </div>
 
       <div className="flex space-x-1 cursor-pointer lg:hidden w-[25px] ">
