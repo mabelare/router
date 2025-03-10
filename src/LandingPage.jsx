@@ -7,7 +7,7 @@ const LandingPage = () => {
         autoPlay
         loop
         muted
-        className="absolute object-cover w-full h-full"
+        className="absolute object-cover w-full h-full pointer-events-none"
       >
         <source src="/document_5940284188090439704.mp4" type="video/mp4" />
       </video>
